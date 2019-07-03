@@ -1,1 +1,24 @@
-
+body {
+			background: black;
+}
+.welcome {
+    height: 100vh;
+    width: 100%;
+    min-height: 1068px;
+    background-image: url("https://images.pexels.com/photos/375732/pexels-photo-375732.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: center center;
+    background-size: cover;
+}
+li {
+					 list-style: none;
+					 display: inline;
+					 color: white;
+}
+.row {
+		display: flex;
+		justify-content: space-between;
+		ul{
+			display: flex;
+			justify-content: space-between;
+		}
+}
